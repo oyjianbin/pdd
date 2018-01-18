@@ -7,14 +7,25 @@
         <router-link to="/cart" tag="span" class="store">商家入驻</router-link>
         <router-link to="/mine" tag="span" class="help">帮助中心</router-link>
       </div>
-      <div class="product-list">
+      <!-- 蒙版 -->
+      <div class="nav-list-mask" v-if="!navListBol"></div>
+      <div class="nav-list" v-if="!navListBol">
+        <div class="nav-all">
+          全部分类
+          <div @click="changeBolA()">
+            <span></span>
+          </div>  
+        </div>
         <ul>
-          <li>品牌清仓</li>
-          <li>品牌清仓</li>
-          <li>品牌清仓</li>
-          <li>品牌清仓</li>
+          <li v-for="(item,index) in categories" :key="item.id">{{item.name}}</li>
         </ul>
-        <div class="list-bottom">
+      </div>
+      <!-- 切换的list -->
+      <div class="product-list" v-if="navListBol">
+        <ul>
+          <li v-for="(item,index) in categories" :key="item.id">{{item.name}}</li>
+        </ul>
+        <div class="list-bottom" @click="changeBol()">
           <span></span>
         </div>
       </div>
@@ -56,10 +67,31 @@
 <script>
 // 倒入头部
 import Headers from '@/components/Header/Header'
-
+//导入api
+import api from '@/api'
 export default {
   components: {
     Headers
+  },
+  data () {
+    return {
+      categories: [],
+      navListBol: true
+    }
+  },
+  created () {
+    this.$http.get(api.host + '/categories')
+      .then(res =>{
+        this.categories = res.data
+      })
+  },
+  methods: {
+    changeBolA () {
+      this.navListBol = true
+    },
+    changeBol () {
+      this.navListBol = false
+    }
   }
 }
 </script>
@@ -78,24 +110,86 @@ export default {
     color: @font-color
   }
 }
+// 蒙版
+.nav-list-mask{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 13rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 5;
+}
+.nav-list{
+  width: 100%;
+  .nav-all{
+    width: 100%;
+    height: 3rem;
+    background-color: #ed435b;
+    color: white;
+    padding-left: 15px;
+    line-height: 3rem;
+    position: relative;
+    >div{
+      width: 10%;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      >span{     
+      display: block;
+      width: 13px;
+      height: 8px;
+      background: url("./images/mpdd_cat_arrow.png") center center no-repeat;
+      background-size: 100% 100%;
+      margin: 1rem auto;
+      }
+    }
+  }
+  ul{
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    >li{
+      text-align: center;
+      line-height: 3rem;
+      width: 25%;
+      height: 100%;
+      color: @font-color;
+      float: left;
+      border-right: 1px solid rgba(204, 204, 204, 0.3);
+      border-bottom: 1px solid rgba(204, 204, 204, 0.3)
+      // &:after{
 
+      // }
+    }
+  }
+}
 .product-list{
   width: 100%;
   height: 3rem;
   background-color: #ed435b;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
   >ul{
     height: 100%;
     width: 90%;
-    // display: flex;
-    // justify-content: space-between;
+    display: inline-block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
     li{
+      display: inline-block;
       text-align: center;
       line-height: 3rem;
       width: 22%;
       height: 100%;
       color: white;
+      float: left;
     }
   }
   .list-bottom{

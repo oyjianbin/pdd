@@ -1,5 +1,5 @@
 {
-    "banner":[
+    "banners":[
         {
             "id": 1,
             "banner_img": "//mcdn.pinduoduo.com/assets/img/m_pdd_pddJan15toFeb4_banner.jpg"
@@ -17,13 +17,36 @@
             "banner_img": "//mcdn.pinduoduo.com/assets/img/cat_fresh.jpg"
         },
         {
-            "id": 5,
+            "id": 999,
             "banner_img": "//mcdn.pinduoduo.com/assets/img/act_brand.jpg"
+        }
+    ],
+    "categories":[
+        {
+            "id": 1,
+            "name": "品牌清仓"
+        },
+        {
+            "id": 2,
+            "name": "限时秒杀"
+        },
+        {
+            "id": 3,
+            "name": "海淘专场"
+        },
+        {
+            "id": 4,
+            "name": "品质水果"
+        },
+        {
+            "id": 2,
+            "name": "9.9特卖"
         }
     ],
     "goods_list": [
         {
-            "goods_id": 371566549,
+            "goods_id": 45,
+            "categoryId": 1,
             "goods_name": "【加绒加厚高弹力 不抽丝 不起球】2017冬季女款打底裤女外穿长裤弹力大码休闲裤女 冬款显瘦加绒加厚高腰铅笔裤小脚裤潮",
             "short_name": "【加绒加厚高弹力 不抽丝 不起球】2017冬季女款打底裤女外穿长裤弹力大码休闲裤女 冬款显瘦加绒加厚高腰铅笔裤小脚裤潮",
             "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-23/b483f463ae4da0aefecc66528da03988.jpeg",
@@ -88,6 +111,7 @@
         },
         {
             "goods_id": 406526920,
+            "categoryId": 1,
             "goods_name": "【香朵儿】【加绒/不加绒可选】半高领中长款毛衣女开叉加绒加厚秋冬装大码针织衫保暖长袖打底衫856",
             "short_name": "【香朵儿】【加绒/不加绒可选】半高领中长款毛衣女开叉加绒加厚秋冬装大码针织衫保暖长袖打底衫856",
             "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/cf84ab1dd0cd49dc3b3105cfe50e06f8.jpeg",
@@ -109,6 +133,7 @@
         },
         {
             "goods_id": 331785100,
+            "categoryId": 1,
             "goods_name": "棉袄女中长款2017新款韩版原宿chic羽绒棉服冬季矮小个子棉衣外套",
             "short_name": "棉袄女中长款2017新款韩版原宿chic羽绒棉服冬季矮小个子棉衣外套",
             "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-22/ef8d9397bc8a73202e876d629b4a7d03.jpeg",
@@ -694,7 +719,7 @@
             "opt_name": "女装"
         },
         {
-            "id": 999,
+            "bannerId": 999,
             "priority": 2,
             "opt_name": "冬上新"
         },
