@@ -1,0 +1,752 @@
+{
+    "banner":[
+        {
+            "id": 1,
+            "banner_img": "//mcdn.pinduoduo.com/assets/img/m_pdd_pddJan15toFeb4_banner.jpg"
+        },
+        {
+            "id": 2,
+            "banner_img": "//mcdn.pinduoduo.com/assets/img/cat_clothes.jpg"
+        },
+        {
+            "id": 3,
+            "banner_img": "//mcdn.pinduoduo.com/assets/img/cat_girlshoes.jpg"
+        },
+        {
+            "id": 4,
+            "banner_img": "//mcdn.pinduoduo.com/assets/img/cat_fresh.jpg"
+        },
+        {
+            "id": 5,
+            "banner_img": "//mcdn.pinduoduo.com/assets/img/act_brand.jpg"
+        }
+    ],
+    "goods_list": [
+        {
+            "goods_id": 371566549,
+            "goods_name": "【加绒加厚高弹力 不抽丝 不起球】2017冬季女款打底裤女外穿长裤弹力大码休闲裤女 冬款显瘦加绒加厚高腰铅笔裤小脚裤潮",
+            "short_name": "【加绒加厚高弹力 不抽丝 不起球】2017冬季女款打底裤女外穿长裤弹力大码休闲裤女 冬款显瘦加绒加厚高腰铅笔裤小脚裤潮",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-23/b483f463ae4da0aefecc66528da03988.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-23/f1d08eeb84e41ba0095def8f875cb832.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 2760,
+                "customer_num": 2
+            },
+            "cnt": 10314,
+            "market_price": 5900,
+            "normal_price": 5900,
+            "country": "",
+            "tag": -1,
+            "ad": {
+                "needAdLogo": false,
+                "scene_id": 1,
+                "goods_id": 371566549,
+                "cate_list": [
+                    0,
+                    210,
+                    233,
+                    365
+                ],
+                "exp_list": [
+                    {
+                        "bucket": "9999",
+                        "name": "OptBase",
+                        "exp": "es-sort",
+                        "strategy": "OptBase"
+                    }
+                ],
+                "search_id": "LneUSmIVFcI3Xeo1hgoYbiJ4FYooRq3ilRFsObHQ0njguUybsV410YYv9yzZ9bq8",
+                "target": 1,
+                "opt_list": [
+                    225,
+                    1876,
+                    52,
+                    999,
+                    1751,
+                    56,
+                    1882,
+                    187,
+                    12,
+                    45,
+                    14,
+                    350
+                ],
+                "ad_id": 10282232,
+                "request_opt": 14,
+                "trigger_goods_id": 0,
+                "sub_target": 0,
+                "mall_id": 434651,
+                "match_type": 16,
+                "bid": "FY3gd5wlhrUvThNZfN13xgNWtrxgGZRWzP6d-DfPLcM=",
+                "plan_id": 2237078
+            },
+            "icon": {
+                "id": -1,
+                "url": ""
+            }
+        },
+        {
+            "goods_id": 406526920,
+            "goods_name": "【香朵儿】【加绒/不加绒可选】半高领中长款毛衣女开叉加绒加厚秋冬装大码针织衫保暖长袖打底衫856",
+            "short_name": "【香朵儿】【加绒/不加绒可选】半高领中长款毛衣女开叉加绒加厚秋冬装大码针织衫保暖长袖打底衫856",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/cf84ab1dd0cd49dc3b3105cfe50e06f8.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/a6f6f5a8b410463fe7278b44b9edb613.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 3990,
+                "customer_num": 2
+            },
+            "cnt": 70566,
+            "market_price": 5090,
+            "normal_price": 5090,
+            "country": "",
+            "tag": 2,
+            "icon": {
+                "id": -1,
+                "url": ""
+            }
+        },
+        {
+            "goods_id": 331785100,
+            "goods_name": "棉袄女中长款2017新款韩版原宿chic羽绒棉服冬季矮小个子棉衣外套",
+            "short_name": "棉袄女中长款2017新款韩版原宿chic羽绒棉服冬季矮小个子棉衣外套",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-22/ef8d9397bc8a73202e876d629b4a7d03.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-22/0564916c4dc57aace3e97f89ca46d627.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 8800,
+                "customer_num": 2
+            },
+            "cnt": 51268,
+            "market_price": 9500,
+            "normal_price": 9500,
+            "country": "",
+            "tag": 2,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 256284879,
+            "goods_name": "【大码加绒加厚打底衫】秋冬女装加绒加厚保暖上衣修身蕾丝打底衫加肥加大码200斤可穿",
+            "short_name": "【大码加绒加厚打底衫】秋冬女装加绒加厚保暖上衣修身蕾丝打底衫加肥加大码200斤可穿",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/e9cbe0a1b7022368c375be1672cac47d.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/ea21dbbd6d7114753fed301ced84ddf4.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 2750,
+                "customer_num": 2
+            },
+            "cnt": 319493,
+            "market_price": 6990,
+            "normal_price": 6990,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 181392784,
+            "goods_name": "【FLAVIE正品】【早买优惠】【加绒加厚】2017冬季高腰黑色加绒加厚牛仔裤女保暖小脚长裤学生铅笔裤",
+            "short_name": "【FLAVIE正品】【早买优惠】【加绒加厚】2017冬季高腰黑色加绒加厚牛仔裤女保暖小脚长裤学生铅笔裤",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-11-30/365badab065eb9a483d3ad59d1d6bb58.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/c4d2ea6b026d3306df2c29774881de4d.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 3780,
+                "customer_num": 2
+            },
+            "cnt": 215126,
+            "market_price": 6900,
+            "normal_price": 6900,
+            "country": "",
+            "tag": 4,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 91628,
+            "goods_name": "【超柔保暖法兰绒多款可选】秋冬季法兰绒保暖睡衣女长袖睡衣女套装冬天睡衣韩版宽松可爱睡衣女卡通睡衣珊瑚绒睡衣女冬M-2XL",
+            "short_name": "【超柔保暖法兰绒多款可选】秋冬季法兰绒保暖睡衣女长袖睡衣女套装冬天睡衣韩版宽松可爱睡衣女卡通睡衣珊瑚绒睡衣女冬M-2XL",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-14/8de1e869c0af5fd1a74995c21e3d72ef.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-14/6d16a4e5d55e58d22389cc73d8b9b957.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 2750,
+                "customer_num": 2
+            },
+            "cnt": 470312,
+            "market_price": 3990,
+            "normal_price": 3990,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 52545376,
+            "goods_name": "（月瘦16斤）日本进口女士瘦大肚子瘦腰燃脂减肥腰带保护腰带保暖女士宫寒暖宫腰间盘冬季护肚围肚子成人腹部保暖护胃带",
+            "short_name": "（月瘦16斤）日本进口女士瘦大肚子瘦腰燃脂减肥腰带保护腰带保暖女士宫寒暖宫腰间盘冬季护肚围肚子成人腹部保暖护胃带",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-24/e93f7af7a5666942092ab8be8f892b6c.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-24/67e5144897fec7aaba0b8bd243185a2f.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 2200,
+                "customer_num": 2
+            },
+            "cnt": 1195,
+            "market_price": 6600,
+            "normal_price": 6600,
+            "country": "",
+            "tag": -1,
+            "ad": {
+                "needAdLogo": false,
+                "scene_id": 1,
+                "goods_id": 52545376,
+                "cate_list": [
+                    0,
+                    3817,
+                    4419,
+                    4642
+                ],
+                "exp_list": [
+                    {
+                        "bucket": "9999",
+                        "name": "OptBase",
+                        "exp": "es-sort",
+                        "strategy": "OptBase"
+                    }
+                ],
+                "search_id": "LneUSmIVFcI3Xeo1hgoYbiJ4FYooRq3ilRFsObHQ0njguUybsV410YYv9yzZ9bq8",
+                "target": 1,
+                "opt_list": [
+                    225,
+                    610,
+                    1130,
+                    12,
+                    349,
+                    14
+                ],
+                "ad_id": 10259438,
+                "request_opt": 14,
+                "trigger_goods_id": 0,
+                "sub_target": 0,
+                "mall_id": 60437,
+                "match_type": 16,
+                "bid": "bKAIaoEfiPAirKJFX9ciX9J8HjOupiJmoooAeqmM7Ko=",
+                "plan_id": 2197046
+            },
+            "icon": {
+                "id": -1,
+                "url": ""
+            }
+        },
+        {
+            "goods_id": 165214721,
+            "goods_name": "【12针加绒加厚款 超好质量】毛衣2017新款套头针织紧身打底衫女长袖秋冬百搭针织衫短款半高领修身",
+            "short_name": "【12针加绒加厚款 超好质量】毛衣2017新款套头针织紧身打底衫女长袖秋冬百搭针织衫短款半高领修身",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/7336390bbe6c0f8e000433ee6d531949.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/a52092876d05fd9307d047a2558fa681.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 2650,
+                "customer_num": 2
+            },
+            "cnt": 405153,
+            "market_price": 4390,
+            "normal_price": 4390,
+            "country": "",
+            "tag": 2,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 329080339,
+            "goods_name": "【时尚彩带 精致版型 80-170可穿】大码打底裤女外穿女加绒加厚韩版百搭铅笔裤紧身裤女秋冬季黑色高腰长裤",
+            "short_name": "【时尚彩带 精致版型 80-170可穿】大码打底裤女外穿女加绒加厚韩版百搭铅笔裤紧身裤女秋冬季黑色高腰长裤",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/29f2f105891674634502dcb58ec11425.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/d0f03c2caff326335ed9a1793e50f29b.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 1190,
+                "customer_num": 2
+            },
+            "cnt": 229675,
+            "market_price": 1490,
+            "normal_price": 1490,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 183401491,
+            "goods_name": "【单件/套装】【买一送一】【向大大幸福狐狸同款】横拉丝无痕无钢圈聚拢文胸小胸聚拢厚薄款调整型收副乳大码女士内衣",
+            "short_name": "【单件/套装】【买一送一】【向大大幸福狐狸同款】横拉丝无痕无钢圈聚拢文胸小胸聚拢厚薄款调整型收副乳大码女士内衣",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-11-08/f8a934251c06def30c840ee11533146f.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-11-08/dadace765f2612861001f90b49e4372e.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 1990,
+                "customer_num": 2
+            },
+            "cnt": 201125,
+            "market_price": 3080,
+            "normal_price": 3080,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 342720289,
+            "goods_name": "【包芯纱】半高领毛衣保暖女冬短款甜美刺绣花打底针织衫长袖新款套头宽松显瘦上衣",
+            "short_name": "【包芯纱】半高领毛衣保暖女冬短款甜美刺绣花打底针织衫长袖新款套头宽松显瘦上衣",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-15/5710452321566da903d85c9443b2ed8e.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-15/ae6c2165d9b17c4b6186d8e8235ce73d.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 4380,
+                "customer_num": 2
+            },
+            "cnt": 94464,
+            "market_price": 5900,
+            "normal_price": 5900,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 378715061,
+            "goods_name": "秋冬2017新款毛衣女宽松套头短款针织衫V领打底衫韩版时尚毛衣潮",
+            "short_name": "秋冬2017新款毛衣女宽松套头短款针织衫V领打底衫韩版时尚毛衣潮",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-15/08d27b56fb9b1ca5265e4530bc9e44d9.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-15/54768d230efdaa82907b8ced1f019722.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 3590,
+                "customer_num": 2
+            },
+            "cnt": 39065,
+            "market_price": 5990,
+            "normal_price": 5990,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 428196026,
+            "goods_name": "（半价卖1000件，卖完恢复10.9）日版蜂巢中腰无缝内裤少女暖宫翘臀收腹纯棉内裆高弹力舒适三角裤",
+            "short_name": "（半价卖1000件，卖完恢复10.9）日版蜂巢中腰无缝内裤少女暖宫翘臀收腹纯棉内裆高弹力舒适三角裤",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/0d2d76d543c4541b6335c5dbb34f0cd6.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-08/6c6bd6821f3af10ac10f8c38c324db9b.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 810,
+                "customer_num": 2
+            },
+            "cnt": 568,
+            "market_price": 1090,
+            "normal_price": 1090,
+            "country": "",
+            "tag": -1,
+            "ad": {
+                "needAdLogo": false,
+                "scene_id": 1,
+                "goods_id": 428196026,
+                "cate_list": [
+                    0,
+                    3817,
+                    3818,
+                    3820
+                ],
+                "exp_list": [
+                    {
+                        "bucket": "9999",
+                        "name": "OptBase",
+                        "exp": "es-sort",
+                        "strategy": "OptBase"
+                    }
+                ],
+                "search_id": "LneUSmIVFcI3Xeo1hgoYbiJ4FYooRq3ilRFsObHQ0njguUybsV410YYv9yzZ9bq8",
+                "target": 1,
+                "opt_list": [
+                    225,
+                    610,
+                    1859,
+                    1861,
+                    1127,
+                    744,
+                    12,
+                    349,
+                    14
+                ],
+                "ad_id": 10246385,
+                "request_opt": 14,
+                "trigger_goods_id": 0,
+                "sub_target": 0,
+                "mall_id": 1519066,
+                "match_type": 16,
+                "bid": "IroJXGLlFYfzJJyD9hOQDnytvNlH8U3pOoYJDE6zxhQ=",
+                "plan_id": 2174177
+            },
+            "icon": {
+                "id": -1,
+                "url": ""
+            }
+        },
+        {
+            "goods_id": 259931259,
+            "goods_name": "2017新款【三层夹棉加厚】女士睡衣套装冬季女珊瑚绒三层加厚保暖夹棉袄女士法兰绒家居服套装可爱",
+            "short_name": "2017新款【三层夹棉加厚】女士睡衣套装冬季女珊瑚绒三层加厚保暖夹棉袄女士法兰绒家居服套装可爱",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-07/711514923fbd463c5225c23ae086ce94.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-07/ed9f5b80a2555eba752d6ef89b5eb454.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 5990,
+                "customer_num": 2
+            },
+            "cnt": 89587,
+            "market_price": 10800,
+            "normal_price": 10800,
+            "country": "",
+            "tag": 2,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 63970705,
+            "goods_name": "【杭州发货】2017冬装中长款棉服女加厚棉衣过膝大毛领棉袄保暖外套潮",
+            "short_name": "【杭州发货】2017冬装中长款棉服女加厚棉衣过膝大毛领棉袄保暖外套潮",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-10/e967f8169a199684aaf93914fc1e60d4.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-10/11203f7fd7a26efd3ea2ba81e972ba5b.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 7990,
+                "customer_num": 2
+            },
+            "cnt": 62288,
+            "market_price": 16900,
+            "normal_price": 16900,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": -1,
+                "url": ""
+            }
+        },
+        {
+            "goods_id": 326996637,
+            "goods_name": "【尛涵】【优质有色包芯纱】毛衣女套头时尚条纹中长款打底衫",
+            "short_name": "【尛涵】【优质有色包芯纱】毛衣女套头时尚条纹中长款打底衫",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-15/687795182a4912e4e5daf07c85e4fd2d.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-15/d07226f39fbfd1aee7c192f0e03d9f63.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 4990,
+                "customer_num": 2
+            },
+            "cnt": 34419,
+            "market_price": 6090,
+            "normal_price": 6090,
+            "country": "",
+            "tag": 4,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 299813936,
+            "goods_name": "【加厚加棉】质量问题包退2017冬季新款休闲短款棉衣外套女潮羽绒棉服小棉袄子",
+            "short_name": "【加厚加棉】质量问题包退2017冬季新款休闲短款棉衣外套女潮羽绒棉服小棉袄子",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-14/78eff7d1c5051446a4e5a01691f9f082.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-14/33da58e48682b954f7cf29ee03e636b6.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 4470,
+                "customer_num": 2
+            },
+            "cnt": 21365,
+            "market_price": 7900,
+            "normal_price": 7900,
+            "country": "",
+            "tag": 2,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 410327612,
+            "goods_name": "【优质包芯纱】毛衣女新款百搭冬季学生上衣宽松绣花短款套头半高领针织衫打底衫",
+            "short_name": "【优质包芯纱】毛衣女新款百搭冬季学生上衣宽松绣花短款套头半高领针织衫打底衫",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/773a584204af3bd898049c7029cfa7d9.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/93198c72b85aaad482924f5ac636d66c.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 3950,
+                "customer_num": 2
+            },
+            "cnt": 55317,
+            "market_price": 5990,
+            "normal_price": 5990,
+            "country": "",
+            "tag": 2,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 186091826,
+            "goods_name": "【多款多色可选】新款睡衣女春秋冬季法兰绒加绒加厚韩版宽松休闲珊瑚绒白搭外穿带绒卡通可爱图案家居服两件套M-XXL码包邮",
+            "short_name": "【多款多色可选】新款睡衣女春秋冬季法兰绒加绒加厚韩版宽松休闲珊瑚绒白搭外穿带绒卡通可爱图案家居服两件套M-XXL码包邮",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-11-10/c116df623d5a8456dca946d0bb092396.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-11-10/f866306014dcaabe829d836b1b6475bb.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 2580,
+                "customer_num": 2
+            },
+            "cnt": 686,
+            "market_price": 2900,
+            "normal_price": 2900,
+            "country": "",
+            "tag": -1,
+            "ad": {
+                "needAdLogo": false,
+                "scene_id": 1,
+                "goods_id": 186091826,
+                "cate_list": [
+                    0,
+                    3817,
+                    3818,
+                    3825
+                ],
+                "exp_list": [
+                    {
+                        "bucket": "9999",
+                        "name": "OptBase",
+                        "exp": "es-sort",
+                        "strategy": "OptBase"
+                    }
+                ],
+                "search_id": "LneUSmIVFcI3Xeo1hgoYbiJ4FYooRq3ilRFsObHQ0njguUybsV410YYv9yzZ9bq8",
+                "target": 1,
+                "opt_list": [
+                    225,
+                    610,
+                    1859,
+                    1861,
+                    744,
+                    12,
+                    1245,
+                    349,
+                    14
+                ],
+                "ad_id": 10084296,
+                "request_opt": 14,
+                "trigger_goods_id": 0,
+                "sub_target": 0,
+                "mall_id": 948586,
+                "match_type": 16,
+                "bid": "pBYVsGs7gTHv4ee3zkCXW06Y6rjg8KQVlrDJvCLCUO0=",
+                "plan_id": 1868643
+            },
+            "icon": {
+                "id": -1,
+                "url": ""
+            }
+        },
+        {
+            "goods_id": 234961155,
+            "goods_name": "【年终5折清仓】【优乐布奇】【加绒加厚 一件抵二件】秋冬季加绒加厚毛衣女保暖衣服打底针织衫  ",
+            "short_name": "【年终5折清仓】【优乐布奇】【加绒加厚 一件抵二件】秋冬季加绒加厚毛衣女保暖衣服打底针织衫  ",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-10/8ac27e3a25f5ccaa34b7de851ca8d017.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-10/2efc58599e0628bf0ff72a7ab03628dd.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 3740,
+                "customer_num": 2
+            },
+            "cnt": 135683,
+            "market_price": 5600,
+            "normal_price": 5600,
+            "country": "",
+            "tag": 4,
+            "icon": {
+                "id": -1,
+                "url": ""
+            }
+        },
+        {
+            "goods_id": 74565312,
+            "goods_name": "【朵彩正品 防伪码可查 】【加绒加厚大码160斤可穿】黑色裤子高腰打底裤女裤子2017新款胖mm紧身显瘦小脚裤",
+            "short_name": "【朵彩正品 防伪码可查 】【加绒加厚大码160斤可穿】黑色裤子高腰打底裤女裤子2017新款胖mm紧身显瘦小脚裤",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-15/a96db8aa9b1f6447c32c537112e3e77b.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-15/e6d998c479a0ab1748a7ab0a02f21c7a.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 1880,
+                "customer_num": 2
+            },
+            "cnt": 715070,
+            "market_price": 2200,
+            "normal_price": 2200,
+            "country": "",
+            "tag": 4,
+            "icon": {
+                "id": -1,
+                "url": ""
+            }
+        },
+        {
+            "goods_id": 247698865,
+            "goods_name": "【索菲花园正品】冬季睡衣女开衫长袖加厚法兰绒珊瑚绒秋冬季家居服套装大码",
+            "short_name": "【索菲花园正品】冬季睡衣女开衫长袖加厚法兰绒珊瑚绒秋冬季家居服套装大码",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-06/b87b3a7a4757bb5ecae8aa1c4cc310d9.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2018-01-16/28ddd0addb2af371262af697885e9133.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 3730,
+                "customer_num": 2
+            },
+            "cnt": 7993,
+            "market_price": 6900,
+            "normal_price": 6900,
+            "country": "",
+            "tag": 4,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 995345,
+            "goods_name": "【10条装】高档棉质内裤女糖果色棉质中腰大码棉质面料蕾丝性感莫代尔纯色少女低腰情趣丁字裤无痕三角裤【2/5/7/10条】",
+            "short_name": "【10条装】高档棉质内裤女糖果色棉质中腰大码棉质面料蕾丝性感莫代尔纯色少女低腰情趣丁字裤无痕三角裤【2/5/7/10条】",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-29/b20ecff358de4fb03d2ae0c7e8588ae7.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-29/203062c53d427770b750116775787066.jpeg",
+            "event_type": 0,
+            "group": {
+                "price": 830,
+                "customer_num": 2
+            },
+            "cnt": 855672,
+            "market_price": 980,
+            "normal_price": 980,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        },
+        {
+            "goods_id": 368054592,
+            "goods_name": "【加厚优质包芯纱 不起球 不掉色】秋冬装韩版新款圆领套头显瘦百搭针织打底衫上衣宽松大码纯色毛衣女",
+            "short_name": "【加厚优质包芯纱 不起球 不掉色】秋冬装韩版新款圆领套头显瘦百搭针织打底衫上衣宽松大码纯色毛衣女",
+            "thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-22/a771e04face837b17431f832cf84f717.jpeg",
+            "hd_thumb_url": "http://omsproductionimg.yangkeduo.com/images/2017-12-22/0e7902622e403e271156796e26648c89.jpeg",
+            "event_type": 12,
+            "group": {
+                "price": 3590,
+                "customer_num": 2
+            },
+            "cnt": 98369,
+            "market_price": 4500,
+            "normal_price": 4500,
+            "country": "",
+            "tag": -1,
+            "icon": {
+                "id": 4,
+                "url": "http://omsproductionimg.yangkeduo.com/images/2018-01-07/47e579de5f3daec3afc0b4ca4887475f.png"
+            }
+        }
+    ],
+    "opt_infos": [
+        {
+            "id": 45,
+            "priority": 1,
+            "opt_name": "女装"
+        },
+        {
+            "id": 999,
+            "priority": 2,
+            "opt_name": "冬上新"
+        },
+        {
+            "id": 997,
+            "priority": 3,
+            "opt_name": "针织毛衣"
+        },
+        {
+            "id": 52,
+            "priority": 4,
+            "opt_name": "女裤"
+        },
+        {
+            "id": 315,
+            "priority": 5,
+            "opt_name": "外套"
+        },
+        {
+            "id": 610,
+            "priority": 6,
+            "opt_name": "内衣裤袜"
+        },
+        {
+            "id": 1874,
+            "priority": 9,
+            "opt_name": "棉服"
+        },
+        {
+            "id": 305,
+            "priority": 10,
+            "opt_name": "套装"
+        },
+        {
+            "id": 557,
+            "priority": 11,
+            "opt_name": "打底衫裙"
+        },
+        {
+            "id": 485,
+            "priority": 12,
+            "opt_name": "大码女装"
+        },
+        {
+            "id": 1875,
+            "priority": 17,
+            "opt_name": "羽绒服"
+        },
+        {
+            "id": 1876,
+            "priority": 18,
+            "opt_name": "打底裤"
+        }
+    ]
+}
