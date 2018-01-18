@@ -46,7 +46,6 @@
                   <p>{{item.goods_name}}</p>
                   <span>￥{{item.group.price.toFixed(2)}}</span>
                 </li>
-              
               </dl>
             </div>
           </li>
