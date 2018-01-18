@@ -15,6 +15,11 @@ export default {
   name: 'App',
   components: {
     TabBar
+  },
+  computed: {
+    TabShow () {
+      // return this.$store.state.tabShow
+    }
   }
 }
 </script>

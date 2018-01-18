@@ -5,7 +5,7 @@
       <div class="head">
         <router-link to="/" tag="span" class="index">首页</router-link>
         <router-link to="/cart" tag="span" class="store">商家入驻</router-link>
-        <router-link to="/mine" tag="span" class="help">帮助中心</router-link>
+        <router-link to="/login" tag="span" class="help">帮助中心</router-link>
       </div>
       <div class="banner">
         <mt-swipe :auto="4000">

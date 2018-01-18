@@ -21,7 +21,11 @@
 
 <script>
 export default {
-  
+  computed: {
+    //   tabShow(){
+    //     return this.$store.state.tabShow
+    //   }
+  }
 }
 </script>
 

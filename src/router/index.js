@@ -8,7 +8,8 @@ const Category = resolve => require(['@/pages/Category/Category.vue'],resolve)
 const Cart = resolve => require(['@/pages/Cart/Cart'],resolve)
 //引入我的页
 const Mine = resolve => require(['@/pages/Mine/Mine'],resolve)
-
+//引入登录注册页
+const Login = resolve => require(['@/pages/Login/Login'],resolve)
 Vue.use(Router)
 
 export default new Router({
@@ -30,6 +31,10 @@ export default new Router({
     {
       path: '/mine',
       component: Mine
+    },
+    {
+      path: '/login',
+      component: Login
     }
   ]
 })

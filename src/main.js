@@ -11,12 +11,24 @@ import '@/style/reset.less'
 // 导入http库
 import axios from 'axios'
 Vue.prototype.$http = axios
+
+//导入Vuex
+import store from './store'
+
 //导入mint-ui组件库
-import {Swipe,SwipeItem} from 'mint-ui'
+import { Swipe, SwipeItem, MessageBox} from 'mint-ui'
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
-
+Vue.prototype.$Msg = MessageBox
 Vue.config.productionTip = false
+
+// 路由拦截器(导航守卫),控制tabBar的显示隐藏
+// router.beforeEach((to,from,next) =>{
+//   console.log(to)
+//   console.log(from)
+//   console.log(next)
+// })
+
 
 /* eslint-disable no-new */
 new Vue({
