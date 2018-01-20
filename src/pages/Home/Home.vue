@@ -35,13 +35,13 @@
           <a>查看更多></a>
         </div>
         <ul>
-          <li v-for="(item,index) in goods_list" :key="item.goods_id">
+          <li v-for="(item,index) in computedCategories" :key="item.goods_id">
             <div class="cat-item">
               <div class="cat-banner">
-                <img src="//mcdn.pinduoduo.com/assets/img/cat_clothes.jpg" alt="">
+                <img :src="item.category_img" alt="">
               </div>
               <dl>
-                <li class="cat-list"  v-for="(item,index) in goods_list" :key="item.goods_id" v-if="index <3">
+                <li class="cat-list"  v-for="(item,index) in computedProducts" :key="item.goods_id" v-if="index <3">
                   <img :src="item.thumb_url">
                   <p>{{item.goods_name}}</p>
                   <span>￥{{item.group.price.toFixed(2)}}</span>
@@ -68,7 +68,6 @@ export default {
   data(){
     return {
       banner: [],
-      goods_list: []
     }
   },
   created() {
@@ -77,11 +76,14 @@ export default {
           console.log(res.data)
           this.banner = res.data
       })
-    this.$http.get(api.host + '/goods_list')
-      .then(res =>{
-        console.log(res.data)
-        this.goods_list = res.data
-      })
+  },
+  computed: {
+    computedCategories () {
+      return this.$store.state.categories
+    },
+    computedProducts () {
+      return this.$store.state.products
+    }
   }
 }
 </script>

@@ -17,7 +17,7 @@
           </div>  
         </div>
         <ul>
-          <li v-for="(item,index) in categories" :key="item.id">{{item.name}}</li>
+          <li v-for="(item,index) in categories" @click="products()" :key="item.id">{{item.name}}</li> 
         </ul>
       </div>
       <!-- 切换的list -->
@@ -29,24 +29,24 @@
           <span></span>
         </div>
       </div>
-      <div class="pdd-subject">
+      <div class="pdd-subject" v-for="(item,index) in categories" :key="item.id" v-if="index<1">
         <div class="pdd-subject-banner">
-          <img src="//mcdn.pinduoduo.com/assets/img/act_brand.jpg" alt="">
+          <img :src="item.category_img" alt="">
         </div>
         <div class="pdd-subject-text">
-          <p>品牌清仓</p>
-          <p>打算极大极大撒点即为情节轻微就是大奖赛的价位 使劲地撒娇地集散地三大萨达斯三大萨达斯色达色达色达是是大三大四</p>
+          <p>{{item.name}}</p>
+          <p>{{item.dec}}</p>
         </div>
       </div>
       <div class="pdd-products">
         <ul>
-          <li>
+          <li v-for="(item,index) in newProducts" :key="item.id">
             <div class="pdd-baner">
-              <img src="http://omsproductionimg.yangkeduo.com/images/2018-01-10/aab5a6d9edf5734c028ff02400c9fac3.jpeg@750w_1l_50Q.src" alt="">
+              <img :src="item.hd_thumb_url">
             </div>
             <div class="pdd-dec">
-              <p>是大三大四的阿斯打算大撒旦阿斯打算大撒旦啊是哒是哒是哒是打算大三大四啊是哒是哒是哒啊实打实的</p>
-              <span>￥23</span>
+              <p>{{item.goods_name}}</p>
+              <span>￥{{item.group.price}}</span>
             </div>
           </li>
            <li>
@@ -75,15 +75,19 @@ export default {
   },
   data () {
     return {
-      categories: [],
-      navListBol: true
+      navListBol: true,
+      newProducts: [],
+      activeCategories: 0
     }
   },
+  computed: {
+    categories () {
+      return this.$store.state.categories
+    },
+    
+  },
   created () {
-    this.$http.get(api.host + '/categories')
-      .then(res =>{
-        this.categories = res.data
-      })
+
   },
   methods: {
     changeBolA () {
@@ -91,6 +95,13 @@ export default {
     },
     changeBol () {
       this.navListBol = false
+    },
+    products () {
+      this.$http.get(api.host+'/categories/4?_embed=goods_list')
+        .then(res=>{
+          console.log(res.data.goods_list)
+          this.newProducts = res.data.goods_list
+        })
     }
   }
 }

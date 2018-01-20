@@ -1,9 +1,11 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import 'babel-polyfill'
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+//导入Vuex
+import store from './store'
 // 引入更新rem的js
 import '@/style/reset.js'
 // 引入通用的css
@@ -11,10 +13,6 @@ import '@/style/reset.less'
 // 导入http库
 import axios from 'axios'
 Vue.prototype.$http = axios
-
-//导入Vuex
-import store from './store'
-
 //导入mint-ui组件库
 import { Swipe, SwipeItem, MessageBox} from 'mint-ui'
 Vue.component(Swipe.name, Swipe);
@@ -31,9 +29,11 @@ Vue.config.productionTip = false
 
 
 /* eslint-disable no-new */
+console.log(store)
 new Vue({
   el: '#app',
   router,
+  store: store,
   components: { App },
   template: '<App/>'
 })
